@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   toggler.addEventListener("change", () => {
     if (toggler.checked) {
-      navbar.style.clipPath = "polygon(0, 0, 100%, 0, 100%, 100%, 0, 100%)";
+      navbar.style.display = "flex";
     } else {
-      navbar.style.clipPath = "polygon(0, 0, 100%, 0, 100%, 0, 0, 0)";
+      navbar.style.display = "none";
     }
   });
 });

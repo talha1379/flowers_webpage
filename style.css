@@ -76,6 +76,15 @@ header .logo span {
   color: var(--pink);
 }
 
+.navbar {
+  display: none;
+}
+
+.navbar.active {
+  display: flex;
+  flex-direction: column;
+}
+
 header .navbar a {
   /* border-radius: 0.5rem;
   font-size: 2rem;
